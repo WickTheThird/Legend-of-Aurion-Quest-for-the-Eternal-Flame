@@ -3,8 +3,7 @@ project(LegendOfAurion)
 
 set(CMAKE_C_STANDARD 11)
 
-find_package(OpenGL REQUIRED)
-include_directories(${OPENGL_INCLUDE_DIRS})
+# macOS system frameworks
+set(CMAKE_EXE_LINKER_FLAGS "-framework OpenGL -framework GLUT")
 
 add_executable(legend_of_aurion main.c)
-target_link_libraries(legend_of_aurion OpenGL GLUT)

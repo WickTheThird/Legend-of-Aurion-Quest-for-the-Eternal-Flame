@@ -222,18 +222,6 @@ LegendOfAurion_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 LegendOfAurion_SOURCE_DIR:STATIC=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame
 
-//Include for the OpenGL GLU library
-OPENGL_GLU_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework
-
-//Include for OpenGL
-OPENGL_INCLUDE_DIR:PATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework
-
-//OpenGL GL library
-OPENGL_gl_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework
-
-//OpenGL GLU library
-OPENGL_glu_LIBRARY:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework
-
 
 ########################
 # INTERNAL cache entries
@@ -378,14 +366,4 @@ CMAKE_TAPI-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//Details about finding OpenGL
-FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework][/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework][c ][v()]
-//ADVANCED property for variable: OPENGL_GLU_INCLUDE_DIR
-OPENGL_GLU_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_INCLUDE_DIR
-OPENGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_gl_LIBRARY
-OPENGL_gl_LIBRARY-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: OPENGL_glu_LIBRARY
-OPENGL_glu_LIBRARY-ADVANCED:INTERNAL=1
 
