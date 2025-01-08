@@ -1,0 +1,3 @@
+/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles/legend_of_aurion.dir
+/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles/edit_cache.dir
+/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles/rebuild_cache.dir
