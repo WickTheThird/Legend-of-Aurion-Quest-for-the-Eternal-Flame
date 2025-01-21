@@ -8,9 +8,9 @@ typedef struct Textures {
     char* path;
 } Textures;
 
-Textures* mainTextures() {
-    int* size = 4;
-    Textures* textures = (Textures*)malloc((*size) * sizeof(Textures));
+Textures* mainTextures(void) {
+    int size = 4;
+    Textures* textures = (Textures*)malloc(size * sizeof(Textures));
 
     textures[0].id = 0;
     textures[0].path = strdup("./media/Terrain/Ground/Shadows.png");

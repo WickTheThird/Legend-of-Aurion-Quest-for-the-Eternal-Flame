@@ -9,6 +9,12 @@ set(CMAKE_BUILD_TYPE Debug)
 # Compiler warnings
 set(CMAKE_C_FLAGS "-Wall -Wextra -pedantic")
 
+# Treat warnings as errors
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Werror")
+
+# Enable verbose output
+set(CMAKE_VERBOSE_MAKEFILE ON)
+
 # Cross-platform support for OpenGL and GLUT
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
