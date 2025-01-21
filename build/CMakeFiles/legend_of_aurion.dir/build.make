@@ -86,17 +86,65 @@ CMakeFiles/legend_of_aurion.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/legend_of_aurion.dir/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/main.c -o CMakeFiles/legend_of_aurion.dir/main.c.s
 
+CMakeFiles/legend_of_aurion.dir/map.c.o: CMakeFiles/legend_of_aurion.dir/flags.make
+CMakeFiles/legend_of_aurion.dir/map.c.o: /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/map.c
+CMakeFiles/legend_of_aurion.dir/map.c.o: CMakeFiles/legend_of_aurion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/legend_of_aurion.dir/map.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/legend_of_aurion.dir/map.c.o -MF CMakeFiles/legend_of_aurion.dir/map.c.o.d -o CMakeFiles/legend_of_aurion.dir/map.c.o -c /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/map.c
+
+CMakeFiles/legend_of_aurion.dir/map.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/legend_of_aurion.dir/map.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/map.c > CMakeFiles/legend_of_aurion.dir/map.c.i
+
+CMakeFiles/legend_of_aurion.dir/map.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/legend_of_aurion.dir/map.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/map.c -o CMakeFiles/legend_of_aurion.dir/map.c.s
+
+CMakeFiles/legend_of_aurion.dir/renderer.c.o: CMakeFiles/legend_of_aurion.dir/flags.make
+CMakeFiles/legend_of_aurion.dir/renderer.c.o: /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/renderer.c
+CMakeFiles/legend_of_aurion.dir/renderer.c.o: CMakeFiles/legend_of_aurion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/legend_of_aurion.dir/renderer.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/legend_of_aurion.dir/renderer.c.o -MF CMakeFiles/legend_of_aurion.dir/renderer.c.o.d -o CMakeFiles/legend_of_aurion.dir/renderer.c.o -c /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/renderer.c
+
+CMakeFiles/legend_of_aurion.dir/renderer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/legend_of_aurion.dir/renderer.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/renderer.c > CMakeFiles/legend_of_aurion.dir/renderer.c.i
+
+CMakeFiles/legend_of_aurion.dir/renderer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/legend_of_aurion.dir/renderer.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/renderer.c -o CMakeFiles/legend_of_aurion.dir/renderer.c.s
+
+CMakeFiles/legend_of_aurion.dir/textures.c.o: CMakeFiles/legend_of_aurion.dir/flags.make
+CMakeFiles/legend_of_aurion.dir/textures.c.o: /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/textures.c
+CMakeFiles/legend_of_aurion.dir/textures.c.o: CMakeFiles/legend_of_aurion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/legend_of_aurion.dir/textures.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/legend_of_aurion.dir/textures.c.o -MF CMakeFiles/legend_of_aurion.dir/textures.c.o.d -o CMakeFiles/legend_of_aurion.dir/textures.c.o -c /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/textures.c
+
+CMakeFiles/legend_of_aurion.dir/textures.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/legend_of_aurion.dir/textures.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/textures.c > CMakeFiles/legend_of_aurion.dir/textures.c.i
+
+CMakeFiles/legend_of_aurion.dir/textures.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/legend_of_aurion.dir/textures.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/textures.c -o CMakeFiles/legend_of_aurion.dir/textures.c.s
+
 # Object files for target legend_of_aurion
 legend_of_aurion_OBJECTS = \
-"CMakeFiles/legend_of_aurion.dir/main.c.o"
+"CMakeFiles/legend_of_aurion.dir/main.c.o" \
+"CMakeFiles/legend_of_aurion.dir/map.c.o" \
+"CMakeFiles/legend_of_aurion.dir/renderer.c.o" \
+"CMakeFiles/legend_of_aurion.dir/textures.c.o"
 
 # External object files for target legend_of_aurion
 legend_of_aurion_EXTERNAL_OBJECTS =
 
 legend_of_aurion: CMakeFiles/legend_of_aurion.dir/main.c.o
+legend_of_aurion: CMakeFiles/legend_of_aurion.dir/map.c.o
+legend_of_aurion: CMakeFiles/legend_of_aurion.dir/renderer.c.o
+legend_of_aurion: CMakeFiles/legend_of_aurion.dir/textures.c.o
 legend_of_aurion: CMakeFiles/legend_of_aurion.dir/build.make
 legend_of_aurion: CMakeFiles/legend_of_aurion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable legend_of_aurion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable legend_of_aurion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/legend_of_aurion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

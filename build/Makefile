@@ -153,6 +153,78 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/main.c.s
 .PHONY : main.c.s
 
+map.o: map.c.o
+.PHONY : map.o
+
+# target to build an object file
+map.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/map.c.o
+.PHONY : map.c.o
+
+map.i: map.c.i
+.PHONY : map.i
+
+# target to preprocess a source file
+map.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/map.c.i
+.PHONY : map.c.i
+
+map.s: map.c.s
+.PHONY : map.s
+
+# target to generate assembly for a file
+map.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/map.c.s
+.PHONY : map.c.s
+
+renderer.o: renderer.c.o
+.PHONY : renderer.o
+
+# target to build an object file
+renderer.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/renderer.c.o
+.PHONY : renderer.c.o
+
+renderer.i: renderer.c.i
+.PHONY : renderer.i
+
+# target to preprocess a source file
+renderer.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/renderer.c.i
+.PHONY : renderer.c.i
+
+renderer.s: renderer.c.s
+.PHONY : renderer.s
+
+# target to generate assembly for a file
+renderer.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/renderer.c.s
+.PHONY : renderer.c.s
+
+textures.o: textures.c.o
+.PHONY : textures.o
+
+# target to build an object file
+textures.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/textures.c.o
+.PHONY : textures.c.o
+
+textures.i: textures.c.i
+.PHONY : textures.i
+
+# target to preprocess a source file
+textures.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/textures.c.i
+.PHONY : textures.c.i
+
+textures.s: textures.c.s
+.PHONY : textures.s
+
+# target to generate assembly for a file
+textures.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/textures.c.s
+.PHONY : textures.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +237,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... map.o"
+	@echo "... map.i"
+	@echo "... map.s"
+	@echo "... renderer.o"
+	@echo "... renderer.i"
+	@echo "... renderer.s"
+	@echo "... textures.o"
+	@echo "... textures.i"
+	@echo "... textures.s"
 .PHONY : help
 
 

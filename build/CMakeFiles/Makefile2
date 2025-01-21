@@ -85,12 +85,12 @@ clean: CMakeFiles/legend_of_aurion.dir/clean
 CMakeFiles/legend_of_aurion.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=1,2 "Built target legend_of_aurion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target legend_of_aurion"
 .PHONY : CMakeFiles/legend_of_aurion.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/legend_of_aurion.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/legend_of_aurion.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles 0
 .PHONY : CMakeFiles/legend_of_aurion.dir/rule
@@ -102,7 +102,7 @@ legend_of_aurion: CMakeFiles/legend_of_aurion.dir/rule
 # codegen rule for target.
 CMakeFiles/legend_of_aurion.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/legend_of_aurion.dir/build.make CMakeFiles/legend_of_aurion.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=1,2 "Finished codegen for target legend_of_aurion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/filipbumbu/Documents/GitHub/Legend-of-Aurion-Quest-for-the-Eternal-Flame/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target legend_of_aurion"
 .PHONY : CMakeFiles/legend_of_aurion.dir/codegen
 
 # clean rule for target.

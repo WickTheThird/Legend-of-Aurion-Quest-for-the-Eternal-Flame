@@ -1,12 +1,10 @@
-#include <stdio.h>
-
 #include <GLUT/glut.h>
 
 #include "renderer.c"
 
 // void display() {
 //     glClear(GL_COLOR_BUFFER_BIT);
-    
+
        // Draw a triangle
 //     glBegin(GL_TRIANGLES);
 //         glColor3f(1.0f, 0.0f, 0.0f); // Red color
@@ -16,7 +14,7 @@
 //         glColor3f(0.0f, 0.0f, 1.0f); // Blue color
 //         glVertex2f(0.0f, 0.5f);
 //     glEnd();
-    
+
 //     glFlush();
 // }
 
